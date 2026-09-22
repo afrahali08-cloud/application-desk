@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Application Desk - SFU Collector",
+  "version": "0.1.0",
+  "description": "Collect your visible SFU favourites after you sign in. Saves job data locally for Application Desk.",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["https://myexperience.sfu.ca/*"],
+  "action": {"default_title": "Collect SFU favourites"},
+  "background": {"service_worker": "background.js"}
+}

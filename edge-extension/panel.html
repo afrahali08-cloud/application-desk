@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>SFU Collector</title><link rel="stylesheet" href="panel.css"></head><body>
+<h1>Collect your SFU jobs</h1><p>Sign in normally and open <b>Favourites</b> in your SFU tab. Keep this window open while collecting.</p>
+<button id="fresh">Start fresh collection</button><button id="one">Test one posting</button><button id="all">Collect favourites</button><button id="stop" disabled>Stop</button>
+<p id="status" role="status">Ready. Start with “Test one posting”.</p><pre id="log"></pre>
+<button id="save">Save current collection</button><label><input id="history" type="checkbox"> Export all saved history instead</label><button id="clear">Clear saved history</button><p id="count"></p>
+<p class="small">Then open Application Desk → Import JSON → choose the saved file. No passwords, cookies or other websites are read. Only jobs on the displayed favourites page are collected. No applications are submitted.</p>
+<script type="module" src="panel.js"></script></body></html>
