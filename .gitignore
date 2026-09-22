@@ -1,0 +1,20 @@
+# Private data and generated outputs
+profile.json
+favourites.json
+data/
+Applications/
+prepared/
+*.sqlite*
+*.db
+*.pdf
+*.zip
+*.lnk
+.env
+.env.*
+# Dependencies and machine state
+vendor/
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
