@@ -1,0 +1,33 @@
+{
+  "candidate": {
+    "name": "[Your name]",
+    "headerLines": [
+      "[Your contact details]"
+    ],
+    "degree": "[Your degree]",
+    "institution": "[Your institution]",
+    "availability": "[Your availability]"
+  },
+  "skills": {
+    "hardware": [],
+    "software": [],
+    "form": []
+  },
+  "projects": {},
+  "experience": [],
+  "education": [],
+  "presets": {
+    "hardware": {
+      "projects": [],
+      "maxBullets": 3
+    },
+    "software": {
+      "projects": [],
+      "maxBullets": 3
+    },
+    "form": {
+      "projects": [],
+      "maxBullets": 3
+    }
+  }
+}
